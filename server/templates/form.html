@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Atendimento</title>
+</head>
+<body>
+    <h1>Formulário de Atendimento</h1>
+    <form action="/submit" method="post">
+        <label for="Colavorador">Colavorador:</label><br>
+        <input type="date" id="Colavorador" name="Colavorador"><br><br>
+        
+        <label for="Agente">Agente:</label><br>
+        <input type="text" id="Agente" name="Agente"><br><br>
+        
+        <label for="area">Área de Atuação:</label><br>
+        <select id="area" name="area">
+            <option value="staff">Staff</option>
+            <option value="operacional">Operacional</option>
+        </select><br><br>
+        
+        <label for="Status">Status:</label><br>
+        <input type="text" id="Status" name="Status"><br><br>
+        
+        <label for="ligar_novamente">Ligar Novamente:</label><br>
+        <input type="text" id="ligar_novamente" name="ligar_novamente"><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
